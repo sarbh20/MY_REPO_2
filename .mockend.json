@@ -11,12 +11,7 @@
     "post": "Post"
   },
   "VaccineCenter": {
-        "fullName":"string"
-    "title":"string"
-    "about":"string,
-    "phone":"string"
-    "geoloc":"any"
-    "reviews":"ReviewModel"
-    "imageUrl":"string" 
+        "fullName": "string"
+    "title": "string"
   }
 }
