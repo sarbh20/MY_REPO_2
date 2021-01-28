@@ -1,5 +1,5 @@
 {
-  "Post": {
+  "Bla": {
     "title": "string",
     "views": "int",
     "published": "boolean",
@@ -8,7 +8,7 @@
   },
   "Comment": {
     "body": "string",
-    "post": "Post"
+    "post": "Bla"
   },
   "VaccineCenter": {
         "fullName": "string"
