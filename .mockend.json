@@ -11,6 +11,12 @@
     "post": "Bla"
   },
   "VaccineCenter": {
-    "title": "string" 
+    "fullName":"string"
+    "title":"string"
+    "about":"string,
+    "phone":"string"
+    "geoloc":"any"
+    "reviews":"ReviewModel"
+    "imageUrl":"string"
   }
 }
