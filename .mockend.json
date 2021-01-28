@@ -10,7 +10,7 @@
     "body": "string",
     "post": "Bla"
   },
-  "VaccineCenter": {
-        "fullName": "string"
+  "Vaccniecenter": {
+    "title": "string" 
   }
 }
