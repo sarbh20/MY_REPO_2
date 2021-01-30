@@ -24,13 +24,19 @@
     "longitude": "int"
   },
   "ReviewModel": {
-   "user": "UserModel",
+   "user": "User",
    "rating": "int",
     "comment": "string" 
   },
-  "UserModel": {
+  "User": {
     "fullName": "string",
-  "imageUrl": "string",
-  "about": "string"
+    "imageUrl": "string",
+    "about": "string"
+  },
+  "Appoinment": {
+    "title": "string",
+    "doctor": "User[]",
+    "appointmentDate": "date",
+    "locationName": "string"
   }
 }
