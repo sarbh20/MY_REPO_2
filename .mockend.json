@@ -10,15 +10,6 @@
     "body": "string",
     "post": "Bla"
   },
-  "Vaccinecenter": {
-    "name":"string",
-    "address":"string",
-    "website":"string",
-    "phone":"string",
-    "geolocation":"Geoloc",
-    "reviews":"ReviewModel[]",
-    "imageUrl":"string"
-  },
   "Geoloc": {
     "latitude": "int",
     "longitude": "int"
@@ -38,5 +29,14 @@
     "doctor": "User[]",
     "appointmentDate": "date",
     "locationName": "string"
+  },
+  "Vaccinecenter": {
+    "name":"string",
+    "address":"string",
+    "website":"string",
+    "phone":"string",
+    "geolocation":"Geoloc",
+    "reviews":"ReviewModel[]",
+    "imageUrl":"string"
   }
 }
