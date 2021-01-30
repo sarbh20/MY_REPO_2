@@ -11,12 +11,26 @@
     "post": "Bla"
   },
   "Vaccinecenter": {
-    "fullName": "string"
-    "title": "string"
-    "about": "string,
-    "phone": "string"
-    "geoloc": "string"
-    "reviews": "string"
+    "fullName":"string"
+    "title":"string",
+    "about":"string,
+    "phone":"string"
+    "geolocation":"Geoloc",
+    "reviews":"ReviewModel[]",
     "imageUrl":"string"
+  },
+  "Geoloc": {
+    "latitude": "int",
+    "longitude": "int"
+  },
+  "ReviewModel": {
+   "user": "UserModel",
+   "rating": "number",
+    "comment": "string" 
+  },
+  "UserModel": {
+    "fullName": "string",
+  "imageUrl": "string",
+  "about": "string"
   }
 }
