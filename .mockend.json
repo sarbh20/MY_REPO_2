@@ -25,7 +25,7 @@
   },
   "ReviewModel": {
    "user": "UserModel",
-   "rating": "number",
+   "rating": "int",
     "comment": "string" 
   },
   "UserModel": {
