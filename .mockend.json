@@ -32,5 +32,10 @@
     "fullName": "string",
   "imageUrl": "string",
   "about": "string"
+  },
+  "step1": {
+     "step2" : {
+       "name": "string" 
+     }
   }
 }
