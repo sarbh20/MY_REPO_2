@@ -11,9 +11,9 @@
     "post": "Bla"
   },
   "Vaccinecenter": {
-    "fullName":"string"
+    "fullName":"string",
     "title":"string",
-    "about":"string,
+    "about":"string",
     "phone":"string",
     "geolocation":"Geoloc",
     "reviews":"ReviewModel[]",
