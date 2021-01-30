@@ -30,6 +30,11 @@
     "appointmentDate": "date",
     "locationName": "string"
   },
+  AppoinmentSlot: {
+     "id" : "int",
+    "time" : "string",
+    "available": "boolean"
+  },
   "Vaccinecenter": {
     "name":"string",
     "address":"string",
@@ -37,6 +42,7 @@
     "phone":"string",
     "geolocation":"Geoloc",
     "reviews":"ReviewModel[]",
-    "imageUrl":"string"
+    "imageUrl":"string",
+    "AppoinmentSlot": "AppoinmentSlot[]"
   }
 }
