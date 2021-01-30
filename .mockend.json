@@ -14,7 +14,7 @@
     "fullName":"string"
     "title":"string",
     "about":"string,
-    "phone":"string"
+    "phone":"string",
     "geolocation":"Geoloc",
     "reviews":"ReviewModel[]",
     "imageUrl":"string"
